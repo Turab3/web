@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mynerve', cursive;
+}
+
+.main-box{
+    position: absolute;
+    justify-items: center;
+    transform: translateY(-50%,-50%);
+    border: 1px solid rgb(255, 255, 255);
+    width: 400px;
+    height: 605px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-left: 35%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-right: 35%;
+    
+}
+
+.content{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+    
+}
+
+.text-filed{
+    margin: 15px;
+    
+}
+
+.txt{
+    font-size: 15px;
+    color: white;
+    background:none;
+    border: 2px solid rgb(255, 255, 255);
+    width: 150px;
+    padding: 10px;
+    outline: none;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.email{
+    font-size: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+    
+}
+
+.email input{
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 2px solid rgb(255, 254, 254);
+    margin-top: 5px;
+    
+}
+/* .email input:focus~label::before,
+.email input:focus~label::before{
+    color: white;
+} */
+
+.btnq{
+    font-size: 20px;
+    width: 340px;
+    height: 40px;
+    margin-left: 30px;
+    background: none;
+    color: white;
+    border-radius: 50px;
+    margin-top: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    
+}
+
+
+input:hover{
+    border-bottom: 2px solid #36ce28;
+    transition: .5s;
+    color: #36ce28;
+}
+
+.txt:hover{
+    border: 2px solid #36ce28;
+}
+
+.btnq:hover{
+    background-color: #36ce28;
+    color: black;
+    transition: .5s;
+    border: none;
+    font-weight: 700;
+}
+.main-box:hover{
+    border: 1px solid #36ce28;
+    transition: 0.5s;
+
+}
+
+.last{
+    color: white;
+    margin-left:80px;
+    margin-top: 5px;
+}
+.lst{
+    color: white;
+    text-decoration: none;
+}
+.lst:hover{
+    font-weight: 700;
+    text-decoration: underline;
+    color: #36ce28;
+    transition: 0.5s;
+}
+
+.con{
+    color: white;
+    text-decoration: none;
+}
+.con:hover{
+    color: #36ce28;
+}

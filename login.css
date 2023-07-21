@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(bg.gif);
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Mynerve', cursive;
+}
+
+.input-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    border-radius: 5px;
+    backdrop-filter:blur(15px);
+    border: 1px solid rgb(255, 253, 253);
+}
+
+.input-box:hover{
+    border: 1px solid #36ce28;
+    transition: 0.5s;
+}
+
+.input-box h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.input-box h1:hover{
+    color: #36ce28;
+    border-bottom: 1px solid #36ce28;
+    font-weight: bold;
+}
+.input-box form{
+    padding:  0 40px;
+    box-sizing: border-box;
+
+}
+
+form .text_fild{
+    position: relative;
+    border-bottom: 2px solid white;
+    margin: 30px 0;
+}
+
+form input{
+    width: 100%;
+    padding: 0 5px;
+    height: 46px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.text_fild label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    color: white;
+    transition: 0.5s;
+
+}
+
+.text_fild span::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    height: 2px;
+    left: 0;
+    width: 0%;
+    background: #36ce28;
+    transition: 0.5s;
+
+}
+
+.text_fild input:focus ~ label,
+.text_fild input:valid ~ label{
+    top: -5px;
+    color: #36ce28;
+}
+.text_fild input:focus ~ span::before,
+.text_fild input:valid ~ span::before{
+    width: 100%;
+}
+
+.pass{
+    margin: -5px 0 20px 5px;
+    color: white;
+}
+
+.pass:hover{
+    color: #36ce28;
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+input[type="submit"]{
+    width: 100%;
+    border: 1px solid #fafafa;
+    height: 40px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    transition: .5s;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover{
+    border: 1px solid #36ce28;
+    background-color: #36ce28;
+    cursor: pointer;
+    color: black;
+    
+}
+
+.signup_link{
+    text-align: center;
+    margin: 10%;
+}
+
+.signup_link a{
+    text-decoration: none;
+    color: white;
+}
+
+.signup_link a:hover{
+    color: #36ce28;
+    font-weight: 700;
+    text-decoration: underline; 
+}
+
+.signup_link{
+    color: white;
+}
+.in-a{
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.in-a:hover{
+    text-decoration: underline;
+    color: #36ce28;
+    transition: 0.5s;
+    font-weight: bold;
+}

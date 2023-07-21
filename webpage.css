@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mynerve', cursive;
+    
+    
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#aaa,#fff);
+    padding:0 5% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(bg.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.logo{
+    height: 100px;
+    margin-left: -50px;
+    
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav .logo{
+    width: 80px;
+    
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.content{
+    text-align: center;
+}
+
+.content h1{
+    font-size: 150px;
+    color: #36ce28;
+    font-weight: 600;
+    /* font-family: 'Abel', sans-serif; */
+    font-family: 'Mynerve', cursive;
+}
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+    width: 250px;
+}
+a:hover{
+    color: #36ce28;
+    transition: 0.5s;
+    font-weight: bold;
+    border: 1px solid #36ce28;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.content a:hover{
+    background-color: #36ce28;
+    border: none;
+    font-weight: 700;
+    color: black;
+    transition: 0.5s;
+    /* width: 260px; */
+    height: 50px;
+    border-radius: 50px;
+    font-size: 18px;
+    
+}
+.btn{
+    color: #36ce28;
+    margin-left: 200px;
+    display: inline-block;
+}
+
+
